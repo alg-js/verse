@@ -1,8 +1,8 @@
 {
   "name": "@alg/verse",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
-  "exports": "./src/main.ts",
+  "exports": "./src/main.js",
   "lock": false,
   "imports": {
     "@alg/bisect": "jsr:@alg/bisect@^0.0.1",
