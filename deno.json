@@ -1,0 +1,25 @@
+{
+  "name": "@alg/verse",
+  "version": "0.0.1",
+  "license": "MIT",
+  "exports": "./src/main.ts",
+  "lock": false,
+  "imports": {
+    "@alg/bisect": "jsr:@alg/bisect@^0.0.1",
+    "@alg/circular-queue": "jsr:@alg/circular-queue@^0.0.1",
+    "@alg/deque": "jsr:@alg/deque@^0.0.1",
+    "@alg/levenshtein-distance": "jsr:@alg/levenshtein-distance@^0.0.1",
+    "@alg/priority-queue": "jsr:@alg/priority-queue@^0.0.1",
+    "@alg/range": "jsr:@alg/range@^0.0.1"
+  },
+  "publish": {
+    "include": [
+      "LICENSE",
+      "README.md",
+      "src/**"
+    ],
+    "exclude": [
+      "tests/**"
+    ]
+  }
+}
