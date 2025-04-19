@@ -1,3 +1,5 @@
+/* @ts-self-types="./types.d.ts" */
+
 import {bisect} from "@alg/bisect";
 import {circularQueue, CircularQueue} from "@alg/circular-queue";
 import {deque, Deque} from "@alg/deque";
